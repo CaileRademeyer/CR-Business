@@ -1,188 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =====================
-       BASIC META
-  ====================== -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="CR Web Solutions builds high-performing, conversion-focused websites for businesses worldwide." />
-  <meta name="author" content="CR Web Solutions" />
-  <meta name="keywords" content="web design, frontend development, business websites, SaaS landing pages" />
-
-  <!-- =====================
-       OPEN GRAPH (SOCIAL PREVIEW)
-  ====================== -->
-  <meta property="og:title" content="CR Web Solutions" />
-  <meta property="og:description" content="Modern websites built to convert visitors into customers." />
-  <meta property="og:type" content="website" />
-
-  <title>CR Web Solutions | Professional Web Development</title>
-
-  <!-- STYLES -->
+  <title>SaaS Landing Page</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-<!-- =====================
-     HEADER / NAVIGATION
-====================== -->
-<header class="header" role="banner">
-  <nav class="container nav" aria-label="Main Navigation">
-    <h1 class="logo">CR Web Solutions!</h1>
-
-    <ul class="nav-links">
-      <li><a href="#services">Services</a></li>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#contact" class="btn btn-outline">Contact</a></li>
-    </ul>
+<header class="hero fade-up">
+  <nav class="nav">
+    <h3 class="logo">Metricly</h3>
+    <a href="#pricing" class="btn-outline">Get Started</a>
   </nav>
+
+  <div class="hero-content">
+    <h1>Turn Data Into Decisions That Drive Growth</h1>
+    <p>
+      Metricly helps startups and teams track performance, optimize workflows,
+      and scale faster with real-time insights.
+    </p>
+    <div class="hero-buttons">
+      <a href="#" class="btn-primary">Start Free Trial</a>
+      <a href="#" class="btn-secondary">View Demo</a>
+    </div>
+  </div>
 </header>
 
-<!-- =====================
-     HERO SECTION
-====================== -->
-<main>
-<section class="hero" aria-labelledby="hero-title">
-  <div class="container">
-    <h2 id="hero-title">
-     <h2>Modern websites engineered to drive growth and measurable results.</h2>
+<section class="social-proof fade-up">
+  <p>Trusted by 2,000+ teams worldwide</p>
+  <div class="logos">
+    <span>StartupX</span>
+    <span>Cloudify</span>
+    <span>GrowthLab</span>
+    <span>NovaTech</span>
+  </div>
+</section>
 
-<p>
-  At CR Web Solutions, we work with forward-thinking businesses to create scalable,
-  performance-driven websites that support long-term growth.
-  Our approach blends strategy, design, and engineering to ensure every digital
-  experience is fast, reliable, and conversion-focused — helping brands compete,
-  scale, and win in increasingly competitive online markets.
-</p>
+<section class="features fade-up">
+  <h2>Everything You Need to Scale Smarter</h2>
 
+  <div class="feature-grid">
+    <div class="feature-card">
+      <h4>Real-Time Analytics</h4>
+      <p>Track key metrics instantly and make informed decisions faster.</p>
+    </div>
 
-    <div class="hero-buttons">
-      <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
-      <a href="#work" class="btn btn-secondary">View Our Work</a>
+    <div class="feature-card">
+      <h4>Team Performance</h4>
+      <p>Understand productivity trends and optimize workflows.</p>
+    </div>
+
+    <div class="feature-card">
+      <h4>Custom Dashboards</h4>
+      <p>Build dashboards that fit your business goals.</p>
     </div>
   </div>
 </section>
 
-<!-- =====================
-     SERVICES
-====================== -->
-<section class="services" id="services" aria-labelledby="services-title">
-  <div class="container">
-    <h3 id="services-title" class="section-title">Our Services</h3>
-    <p class="section-subtitle">Solutions built for growth and performance.</p>
+<section class="pricing fade-up" id="pricing">
+  <h2>Simple, Transparent Pricing</h2>
 
-    <div class="services-grid">
-      <article class="service-card">
-        <h4>Web Design</h4>
-        <p>UI/UX-focused designs that build trust and increase conversions.</p>
-      </article>
+  <div class="pricing-cards">
+    <div class="price-card">
+      <h4>Starter</h4>
+      <p class="price">R200</p>
+      <ul>
+        <li>Basic analytics</li>
+        <li>1 workspace</li>
+        <li>Email support</li>
+      </ul>
+      <a href="#" class="btn-outline">Choose Plan</a>
+    </div>
 
-      <article class="service-card">
-        <h4>Frontend Development</h4>
-        <p>Clean, scalable HTML, CSS, and JavaScript built for performance.</p>
-      </article>
+    <div class="price-card featured">
+      <h4>Pro</h4>
+      <p class="price">R800</p>
+      <ul>
+        <li>Advanced analytics</li>
+        <li>Unlimited workspaces</li>
+        <li>Priority support</li>
+      </ul>
+      <a href="#" class="btn-primary">Start Trial</a>
+    </div>
 
-      <article class="service-card">
-        <h4>Website Redesign</h4>
-        <p>Modernize outdated websites to improve speed, UX, and SEO.</p>
-      </article>
+    <div class="price-card">
+      <h4>Enterprise</h4>
+      <p class="price">Custom</p>
+      <ul>
+        <li>Custom solutions</li>
+        <li>Dedicated support</li>
+        <li>Onboarding</li>
+      </ul>
+      <a href="#" class="btn-outline">Contact Sales</a>
     </div>
   </div>
 </section>
 
-<!-- =====================
-     PORTFOLIO / WORK
-====================== -->
-<section class="work" id="work" aria-labelledby="work-title">
-  <div class="container">
-    <h3 id="work-title" class="section-title">Our Work</h3>
-    <p class="section-subtitle">Results-driven projects.</p>
-
-    <div class="work-grid">
-      <article class="work-card">
-        <img src="images/project1.jpg" alt="SaaS Landing Page Project" />
-        <div class="work-content">
-          <h4>SaaS Landing Page</h4>
-          <p>+45% increase in sign-ups after launch.</p>
-        </div>
-      </article>
-
-      <article class="work-card">
-        <img src="images/project2.jpg" alt="Business Website Project" />
-        <div class="work-content">
-          <h4>Business Website</h4>
-          <p>Improved mobile engagement by 60%.</p>
-        </div>
-      </article>
-    </div>
-  </div>
+<section class="cta fade-up">
+  <h2>Start Scaling Your Business Today</h2>
+  <p>No credit card required. Cancel anytime.</p>
+  <a href="#" class="btn-primary">Get Started Free</a>
 </section>
 
-<!-- =====================
-     CONTACT / LEAD FORM
-====================== -->
-<section class="cta" id="contact" aria-labelledby="contact-title">
-  <div class="container">
-    <h3 id="contact-title">Start Your Project</h3>
-    <p>Send us your project details and we’ll respond within 24 hours.</p>
 
-    <form id="contactForm" novalidate>
-      <input type="text" id="name" placeholder="Full Name" required />
-      <input type="email" id="email" placeholder="Email Address" required />
-      <textarea id="message" placeholder="Project details..." required></textarea>
-      <button class="btn btn-primary" type="submit">Submit</button>
-    </form>
-
-    <p id="formStatus" aria-live="polite"></p>
-  </div>
-</section>
-</main>
-
-<!-- =====================
-     FOOTER
-====================== -->
-<footer class="footer" role="contentinfo">
-  <p>© 2026 CR Web Solutions. All rights reserved.</p>
+<footer class="footer">
+  <p>© 2026 Metricly. All rights reserved.</p>
 </footer>
 
-<!-- =====================
-     FRONTEND SCRIPT
-====================== -->
-<script>
-/**
- * Handles contact form submission
- * Sends data securely to backend API
- */
-const form = document.getElementById("contactForm");
-const statusText = document.getElementById("formStatus");
-
-form.addEventListener("submit", async (e) => {
-  e.preventDefault();
-
-  const payload = {
-    name: name.value.trim(),
-    email: email.value.trim(),
-    message: message.value.trim()
-  };
-
-  try {
-    const res = await fetch("http://localhost:5000/api/contact", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload)
-    });
-
-    if (!res.ok) throw new Error();
-
-    statusText.textContent = "✅ Message sent successfully.";
-    form.reset();
-  } catch {
-    statusText.textContent = "❌ Failed to send message.";
-  }
-});
-</script>
-
+<script src="script.js"></script>
 </body>
 </html>
