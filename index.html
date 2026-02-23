@@ -1,113 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- =====================
+       BASIC META
+  ====================== -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SaaS Landing Page</title>
+  <meta name="description" content="CR Web Solutions builds high-performing, conversion-focused websites for businesses worldwide." />
+  <meta name="author" content="CR Web Solutions" />
+  <meta name="keywords" content="web design, frontend development, business websites, SaaS landing pages" />
+
+  <!-- =====================
+       OPEN GRAPH (SOCIAL PREVIEW)
+  ====================== -->
+  <meta property="og:title" content="CR Web Solutions" />
+  <meta property="og:description" content="Modern websites built to convert visitors into customers." />
+  <meta property="og:type" content="website" />
+
+  <title>CR Web Solutions | Professional Web Development</title>
+
+  <!-- STYLES -->
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-<header class="hero fade-up">
-  <nav class="nav">
-    <h3 class="logo">Metricly</h3>
-    <a href="#pricing" class="btn-outline">Get Started</a>
-  </nav>
+<!-- =====================
+     HEADER / NAVIGATION
+====================== -->
+<header class="header" role="banner">
+  <nav class="container nav" aria-label="Main Navigation">
+    <h1 class="logo">CR Web Solutions!</h1>
 
-  <div class="hero-content">
-    <h1>Turn Data Into Decisions That Drive Growth</h1>
-    <p>
-      Metricly helps startups and teams track performance, optimize workflows,
-      and scale faster with real-time insights.
-    </p>
-    <div class="hero-buttons">
-      <a href="#" class="btn-primary">Start Free Trial</a>
-      <a href="#" class="btn-secondary">View Demo</a>
-    </div>
-  </div>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact" class="btn btn-outline">Contact</a></li>
+    </ul>
+  </nav>
 </header>
 
-<section class="social-proof fade-up">
-  <p>Trusted by 2,000+ teams worldwide</p>
-  <div class="logos">
-    <span>StartupX</span>
-    <span>Cloudify</span>
-    <span>GrowthLab</span>
-    <span>NovaTech</span>
-  </div>
-</section>
+<!-- =====================
+     HERO SECTION
+====================== -->
+<main>
+<section class="hero" aria-labelledby="hero-title">
+  <div class="container">
+    <h1 id="hero-title" class="hero-title">Modern websites engineered to drive growth and measurable results.</h1>
+    <p class="hero-subheadline">Websites built to generate leads — not just look good</p>
 
-<section class="features fade-up">
-  <h2>Everything You Need to Scale Smarter</h2>
+<p class="hero-description">
+  We help service-based businesses and startups turn website visitors into real enquiries with fast,
+  conversion-focused websites built for growth in global markets.
+</p>
 
-  <div class="feature-grid">
-    <div class="feature-card">
-      <h4>Real-Time Analytics</h4>
-      <p>Track key metrics instantly and make informed decisions faster.</p>
-    </div>
+<p class="hero-subtext">
+  Every website is designed with a clear goal: attract the right audience, build trust, and convert
+  traffic into measurable business results.
+</p>
 
-    <div class="feature-card">
-      <h4>Team Performance</h4>
-      <p>Understand productivity trends and optimize workflows.</p>
-    </div>
 
-    <div class="feature-card">
-      <h4>Custom Dashboards</h4>
-      <p>Build dashboards that fit your business goals.</p>
+    <div class="hero-buttons">
+      <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
+      <a href="#work" class="btn btn-secondary">View Our Work</a>
     </div>
   </div>
 </section>
 
-<section class="pricing fade-up" id="pricing">
-  <h2>Simple, Transparent Pricing</h2>
+<!-- =====================
+     SERVICES
+====================== -->
+<!-- PROCESS -->
+<section class="process">
+  <div class="container">
+    <h3 class="section-title">How It Works</h3>
+    <p class="section-subtitle">
+      A simple, transparent process focused on results.
+    </p>
 
-  <div class="pricing-cards">
-    <div class="price-card">
-      <h4>Starter</h4>
-      <p class="price">R200</p>
-      <ul>
-        <li>Basic analytics</li>
-        <li>1 workspace</li>
-        <li>Email support</li>
-      </ul>
-      <a href="#" class="btn-outline">Choose Plan</a>
-    </div>
+   <div class="process-step">
+  <span class="process-number">01</span>
+  <h4>Strategy & Planning</h4>
+  <p>
+    We start by understanding your business, goals, and target audience to define a clear
+    conversion strategy.
+  </p>
+</div>
 
-    <div class="price-card featured">
-      <h4>Pro</h4>
-      <p class="price">R800</p>
-      <ul>
-        <li>Advanced analytics</li>
-        <li>Unlimited workspaces</li>
-        <li>Priority support</li>
-      </ul>
-      <a href="#" class="btn-primary">Start Trial</a>
-    </div>
 
-    <div class="price-card">
-      <h4>Enterprise</h4>
-      <p class="price">Custom</p>
-      <ul>
-        <li>Custom solutions</li>
-        <li>Dedicated support</li>
-        <li>Onboarding</li>
-      </ul>
-      <a href="#" class="btn-outline">Contact Sales</a>
+<div class="process-step">
+  <span class="process-number">02</span>
+  <h4>Design & Development</h4>
+  <p>
+    We design and build a clean, responsive website focused on performance, usability, and
+    lead generation.
+  </p>
+</div>
+
+<div class="process-step">
+  <span class="process-number">03</span>
+  <h4>Launch & Optimize</h4>
+  <p>
+    Before launch, everything is tested for speed, responsiveness, and clarity to ensure
+    your site is ready to convert.
+  </p>
+</div>
     </div>
   </div>
 </section>
 
-<section class="cta fade-up">
-  <h2>Start Scaling Your Business Today</h2>
-  <p>No credit card required. Cancel anytime.</p>
-  <a href="#" class="btn-primary">Get Started Free</a>
+<!-- =====================
+     PORTFOLIO / WORK
+====================== -->
+<section class="work" id="work" aria-labelledby="work-title">
+  <div class="container">
+    <h3 id="work-title" class="section-title">Our Work</h3>
+    <p class="section-subtitle">Results driven projects.</p>
+
+    <div class="work-grid">
+      <div class="work-card-wrapper">
+      <article class="work-card">
+        <img src="images/project1.svg" alt="SaaS Landing Page Project" />
+        <div class="work-content">
+          <h4>SaaS Landing Page</h4>
+          <p>+45% increase in sign-ups after launch.</p>
+          <div class="work-links">
+            <a href="#" onclick="window.location.href='projects/saas-landing/index.html'; return false;" class="btn btn-outline" aria-label="Open SaaS Landing Demo">View Demo</a>
+          </div>
+        </div>
+      </article>
+      </div>
+
+      <article class="work-card">
+        <img src="images/project2.svg" alt="Business Website Project" />
+        <div class="work-content">
+          <h4>Business Website</h4>
+          <p>Improved mobile engagement by 60%.</p>
+        </div>
+      </article>
+      <article class="work-card fade-up">
+        <img src="images/project2.svg" alt="SaaS Analytics Landing Page" />
+        <div class="work-content">
+          <h4>SaaS Analytics Landing Page</h4>
+          <p>
+            A high-converting SaaS landing page designed to drive free-trial signups
+            with clear messaging, dark UI, and conversion-focused layout.
+          </p>
+          <div class="work-links">
+            <a href="./projects/saas-landing/index.html" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+              Live Demo
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
 </section>
+  
 
 
-<footer class="footer">
-  <p>© 2026 Metricly. All rights reserved.</p>
+
+
+<!-- =====================
+     CONTACT / LEAD FORM
+====================== -->
+<section class="cta" id="contact" aria-labelledby="contact-title">
+  <div class="container">
+    <h3 id="contact-title">Start Your Project</h3>
+    <p>Send us your project details and we’ll respond within 24 hours.</p>
+
+    <form id="contactForm" novalidate>
+      <input type="text" id="name" placeholder="Full Name" required />
+      <input type="email" id="email" placeholder="Email Address" required />
+      <textarea id="message" placeholder="Project details..." required></textarea>
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+
+    <p id="formStatus" aria-live="polite"></p>
+  </div>
+</section>
+</main>
+
+<!-- =====================
+     FOOTER
+====================== -->
+<footer class="footer" role="contentinfo">
+  <p>© 2026 CR Web Solutions. All rights reserved.</p>
 </footer>
 
-<script src="script.js"></script>
+<!-- =====================
+     FRONTEND SCRIPT
+====================== -->
+<script>
+/**
+ * Handles contact form submission
+ * Sends data securely to backend API
+ */
+const form = document.getElementById("contactForm");
+const statusText = document.getElementById("formStatus");
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  const payload = {
+    name: name.value.trim(),
+    email: email.value.trim(),
+    message: message.value.trim()
+  };
+
+  try {
+    const res = await fetch("http://localhost:5000/api/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    });
+
+    if (!res.ok) throw new Error();
+
+    statusText.textContent = "✅ Message sent successfully.";
+    form.reset();
+  } catch {
+    statusText.textContent = "❌ Failed to send message.";
+  }
+});
+</script>
+
 </body>
 </html>
